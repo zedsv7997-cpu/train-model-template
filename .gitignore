@@ -1,0 +1,19 @@
+# llama.cpp bản dựng sẵn + mã nguồn: tải lại bằng setup\get_llamacpp*.ps1
+tools/
+
+# model, checkpoint, log, kết quả sinh ra khi chạy
+models/*
+outputs/*
+results/*
+!models/.gitkeep
+!outputs/.gitkeep
+!results/.gitkeep
+
+# dữ liệu train riêng
+data/*.jsonl
+
+__pycache__/
+*.pyc
+.venv/
+*.gguf
+*.safetensors
